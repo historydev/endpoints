@@ -28,7 +28,7 @@
 #### POST `/managers`
   ```json
 
-     {
+     [{
 
         "id": 1,
         "status": true,
@@ -57,6 +57,6 @@
         "monthAnswerDelay": "65428s",
         "isWork": true
 
-     }
+     }]
 
   ```
