@@ -3,6 +3,7 @@
 ## Overview
 * [Authenticate](#authenticate)
 * [ManagersData](#managersdata)
+* [RegisterTelegramToken](#registertelegramtoken)
 
 ### Authenticate
 #### GET `https://chats.user-agent.cc/token/:tokenID`
