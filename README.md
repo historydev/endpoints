@@ -28,6 +28,8 @@
 #### POST `/managers`
   ```json
 
+     /*  Response  */
+
      [{
 
         "id": 1,
@@ -58,5 +60,33 @@
         "isWork": true
 
      }]
+
+  ```
+
+### RegisterTelegramToken 
+## POST `/regTelegram`
+
+  ```json
+
+     /* Request */
+
+        {
+
+           "token": "74hdkoiw73793",
+           "botLink": "90100bbdlspwg683",
+           "tokenStatus": true,
+           "classes": "Продажи, Запуск"
+
+        }
+
+     /* Response */
+
+     // if success status 201
+
+        { "state": true }
+     
+     // if error status 501
+
+        { "state": false }
 
   ```
